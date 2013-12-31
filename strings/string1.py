@@ -12,4 +12,4 @@ text = 'El valor de pi es ' + str(pi)
 print frase.lower()
 print frase.upper()
 print frase.startswith('e')
-
+print frase[11:18]
