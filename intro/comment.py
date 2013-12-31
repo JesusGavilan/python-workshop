@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #una linea de comentario
 print ("Esta línea no esta comentada")
 
