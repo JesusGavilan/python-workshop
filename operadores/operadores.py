@@ -5,6 +5,8 @@ potencia = 2 ** 6
 division = 7.5 / 2
 divisionEntera = 7.5 // 2
 modulo = 7%2
+a=10
+b=5
 
 print "Resultado suma: " + str(suma)
 print "Resultado resta: " + str(resta)
@@ -13,3 +15,8 @@ print "Resultado exponente: " + str(potencia)
 print "Resultado division: " + str(division)
 print "Resultado divisioEntera: " + str(divisionEntera)
 print "Resultado modulo: %i ", modulo
+print "10 == 5 es " + str(a==b)  
+print "10 != 5 es " + str(a!=b)
+print "10 > 5 es  " + str(a>b)
+print "10 < 5 es "  + str(a<b)
+
