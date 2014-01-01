@@ -1,12 +1,9 @@
-#fibonacci
-def fib(n):
-	#return a list containing the fibonacci series up to n
-	result = []
-	a, b = 0,1
-	while b<n:
-		result.append(b)
-		a, b = b, a+b
-	return result
+def tipoNum(x):
+	if x%2!=0:
+		print "%d es impar " %x
+	else:	
+		print "%d es par " %x
 
-f1000 = fib(1000)
-print f1000
+value = input("Introduzca un numero")
+tipoNum(value)
+
