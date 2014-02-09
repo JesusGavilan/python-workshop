@@ -8,7 +8,7 @@ print frase + ' y tal..'
 pi = 3.14
 text = 'El valor de pi es ' + str(pi)
 
-#metodos
+#atributos
 print frase.lower()
 print frase.upper()
 print frase.startswith('e')
